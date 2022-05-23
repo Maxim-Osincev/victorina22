@@ -1,0 +1,41 @@
+.title{
+  font-family: 'PT Serif', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 87%;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.rose-button{
+  background: #FF7A8A;
+  border-radius: 63px;
+  color: #fff;
+  border: none;
+  width: 100%;
+  font-weight: 600;
+  cursor: pointer;
+}
+.points{
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 64px;
+
+  &.orange .point{
+    background: #FED501;
+  }
+
+  &.green .point{
+    background: #78DBB1;
+  }
+
+  &.blue .point{
+    background: #9DE5F6;
+  }
+
+  .point{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+  }
+}
